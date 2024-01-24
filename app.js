@@ -39,8 +39,6 @@ function cleanBox() {
 
 function randomNumber() {
     let number = Math.floor(Math.random() * maxNumber) + 1;
-    console.log(number);
-    console.log(numbersList);
     if (numbersList.length == maxNumber) {
         textElement('p', 'All numbers have been used')
     } else {
